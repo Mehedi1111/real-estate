@@ -1,0 +1,216 @@
+.home-page{
+
+	.home-banner {
+	    padding-top: 160px;
+	    min-height: 506px;
+	}
+/* 
+	header .logo img {
+	    width: 100px;
+	}
+
+	header .top-header {
+	    max-height: 60px;
+	}
+
+	.call-top {
+	    width: 160px;
+	    padding: 5px 10px;
+	    min-height: 64px;
+	}
+
+	nav > ul > li {
+	    padding: 18px 0px;
+
+	    a{
+			font-size: 10px;
+			padding: 9px 14px
+	    }
+	}
+
+	.lang-list {
+	    padding: 19px 22px;
+	    min-height: 63px;
+	}
+ */
+	.banner-content{
+		h3 {
+		    font-size: 13px;
+		}
+		h1 {
+		    font-size: 44px;
+			text-transform: uppercase;
+		}
+	}
+
+	.search-form{
+    	margin-top: -116px;
+
+    	h3 {
+		    font-size: 14px;
+		}
+
+
+		.fields {
+		    padding: 11px 30px;
+		}
+		label {
+		    font-size: 11px;
+		    float: left;
+		}
+
+		.chzn-container-single .chzn-single span {
+		    font-size: 11px;
+		}
+
+		input[type="submit"], 
+		button {
+		    font-size: 12px;
+		}
+
+		.fields > li:nth-child(6) {
+		    padding-top: 21px;
+		}
+
+		.select2-container .select2-search--inline .select2-search__field {
+		    font-size: 12px;
+		}
+
+		.input-ref {
+		    font-size: 13px;
+		}
+
+	}
+	
+
+	.search-heading {
+	    padding: 19px 24px;
+	}
+
+
+	.recently-added h2 {
+	    font-size: 30px;
+	}
+
+	.thumb-item img {
+	    //height: 454px;
+	}
+
+	.block-thumb img {
+	    //height: 222px;
+	}
+
+	.block-thumb2 img {
+	    //height: 290px;
+	}
+
+	.view-btn {
+	    padding: 18px 35px;
+	    font-size: 10px;
+	}
+
+	.about-content {
+	    padding: 58px 0 0 0;
+
+	    h2{
+		    font-size: 28px;
+			text-transform: uppercase;
+		}
+
+		p {
+		    font-size: 13px;
+		    margin-bottom: 60px;
+		}
+	}
+
+	.reviews{	
+		h3 {
+		    font-size: 18px;
+		}
+
+		.review-item img {
+		    height: 275px;
+		}
+
+		.review-qoute p.q-content {
+		    font-size: 18px;
+		}
+
+		.review-qoute .q-author {
+		    font-size: 16px;
+		}
+	}
+/* 
+	.footer-contact {
+		padding: 53px 0 28px 0;
+
+		h3 {
+		    font-size: 20px;
+		}
+
+		.col-footer-contact{
+			p {
+			    font-size: 20px;
+			}
+			a {
+			    font-size: 10px;
+			    padding: 13px 35px;
+			}
+		}
+
+		.col-footer-subscribe{
+			p {
+			    font-size: 12px;
+			}
+
+			input[type="email"] {
+			    font-size: 12px;
+			    padding: 17px 22px;
+			}
+
+			input[type="submit"] {
+			    font-size: 11px;
+			    padding: 14px 25px;
+			    top: 5px;
+			}
+		}
+	}
+
+    .footer-navigation{
+	    h3 {
+		    font-size: 17px;
+		}
+		ul li{
+			margin: 0 0 16px 0;
+			a {
+			    font-size: 14px;
+			}
+		}
+
+		ul.footer-address li {
+		    padding: 0 0 0 30px;
+		    font-size: 13px;
+		    min-height: 22px;
+		}
+		
+	}
+ */
+	/******************************
+	* RESPONSIVE CSS
+	*******************************/
+
+	@media (min-width: 1680px){
+		.top-header .container {
+		    //width: 1350px;
+		}
+	}
+
+	@media (min-width: 1200px){
+		.container {
+		    //width: 945px;
+		}		
+	}
+
+
+
+}

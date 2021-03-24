@@ -1,0 +1,81 @@
+/*****************************************
+* SELECT STYLE 2
+*****************************************/
+
+.select2-container--default {
+    width: 100% !important;
+}
+
+/** height **/
+
+.select2-container--default .select2-selection--multiple .select2-selection__arrow,
+.select2-container--default .select2-selection--single .select2-selection__arrow,
+.select2-container--default .select2-selection--single {
+    height: 44px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 42px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+    line-height: 30px;
+    padding: 0 7px;
+}
+
+.select2-container--default .select2-selection--multiple,
+.select2-container--default .select2-selection--single {
+    border: 1px solid #cdcdcd;
+    height: 44px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    font-size: 11px;
+    background-color: #E4E8ED;
+    border: 1px solid #d8d3d3;
+}
+
+/** text **/
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    font-size: 12px;
+    color: #333;
+    padding: 0px 35px 0px 10px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    background-image: url("icon_arrow-down.svg");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+    background-size: 20px;
+    border: none;
+    border-width: 0;
+    width: 37px;
+    height: 100%;
+    left: 0;
+    margin-left: -18px;
+    top: 2px;
+}
+
+.select2-container--default .select2-selection--single {
+    border-radius: 4px;
+}
+
+.select2-results__option[aria-selected] {
+    font-size: 11px;
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    border: 1px solid #9ea3a9;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__placeholder {
+    color: #757575;
+}
+
+.select2-container--default .select2-search--inline .select2-search__field {
+    font-size: 12px;
+}
+
+/*# sourceMappingURL=select2.css.map */
